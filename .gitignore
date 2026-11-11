@@ -1,0 +1,33 @@
+# Python caches and packaging
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Local environments and editors
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+python main.py --check-data
+# Original source workbooks are local-only until redistribution terms are verified
+/data/raw/*.xlsx
+/data/raw/*.xls
+
+# Experiment outputs are reproducible and excluded from source control
+/outputs/*
+!/outputs/.gitkeep
+*.joblib
+*.pkl
+
+# Local credentials
+.env
+.env.*
+!.env.example
