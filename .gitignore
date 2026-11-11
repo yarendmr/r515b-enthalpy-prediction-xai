@@ -31,3 +31,6 @@ python main.py --check-data
 .env
 .env.*
 !.env.example
+
+# Research reports
+*.pdf
